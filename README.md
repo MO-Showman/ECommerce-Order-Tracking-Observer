@@ -12,10 +12,10 @@ In modern e-commerce and logistics systems, tracking a package's fulfillment lif
 To eliminate this structural rigidity, we implemented the **Observer Design Pattern** (Publish-Subscribe). By defining a unified interface, the `Order` class acts as a **Subject** that hosts a collection of independent **Observers**. When a state transition occurs, the order simply broadcasts the change via `notifyObservers()`, decoupling business execution from presentation and communication logic.
 
 ## 📂 Project Deliverables
-- 📝 **[Problem Analysis & Trade-offs](#)**
-- 🎯 **[Pattern Selection & Justification](#)**
-- 📊 **[UML Class Diagram](#)**
-- 💻 **[Source Code Implementation](#)**
+- 📝 **[Problem Analysis & Trade-offs](./Problem-Analysis-Trade-offs.md)**
+- 🎯 **[Pattern Selection & Justification](./Pattern-Justification.md)**
+- 📊 **[UML Class Diagram](./UML-Diagram.md)**
+- 💻 **[Source Code Implementation](./src)**
 - 📄 **[Presentation Slides (PDF)](#)**
 - 🎬 **[Presentation Video (Watch Here)](#)**
 - 📋 **[Project Management Board (Kanban)](#)**
