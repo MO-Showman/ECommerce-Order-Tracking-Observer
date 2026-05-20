@@ -18,7 +18,7 @@ To eliminate this structural rigidity, we implemented the **Observer Design Patt
 - 💻 **[Source Code Implementation](./src)**
 - 📄 **[Presentation Slides (PDF)](#)**
 - 🎬 **[Presentation Video (Watch Here)](#)**
-- 📋 **[Project Management Board (Kanban)](#)**
+- 📋 **[Project Management Board (Kanban)](https://github.com/users/MO-Showman/projects/4)**
 
 ## 👨‍💻 Authors
 - **Names:** [ Mohammad shoman , Ibrahim Al-Balawi , Ahmed Al-Ajmi ]
