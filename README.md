@@ -1,2 +1,25 @@
-# ECommerce-Order-Tracking-Observer
-Case Study 3: E-Commerce Order Tracking System implemented using the Behavioral Observer Design Pattern.
+# 📦 E-Commerce Order Tracking System - Design Patterns Project
+
+## 📌 Project Overview
+This project is developed as part of the **Design Patterns Course (Case 3)**. The main objective is to identify a behavioral software challenge, analyze possible architectural approaches, and implement a suitable pattern.
+
+**Selected Pattern:** Observer Pattern (Behavioral)
+
+## 🎯 The Real-World Problem
+In modern e-commerce and logistics systems, tracking a package's fulfillment lifecycle (`PLACED`, `IN_WAREHOUSE`, `OUT_FOR_DELIVERY`, `DELIVERED`) is highly critical. Whenever the order state changes, multiple independent subsystems (Customer UI App, SMS Notification Service, and Analytics Logs) must update simultaneously. Hardcoding these dependencies inside the core `Order` class leads to **Tight Coupling** and breaks the **Open/Closed Principle**.
+
+## 🛠️ The Solution (Observer Pattern)
+To eliminate this structural rigidity, we implemented the **Observer Design Pattern** (Publish-Subscribe). By defining a unified interface, the `Order` class acts as a **Subject** that hosts a collection of independent **Observers**. When a state transition occurs, the order simply broadcasts the change via `notifyObservers()`, decoupling business execution from presentation and communication logic.
+
+## 📂 Project Deliverables
+- 📝 **[Problem Analysis & Trade-offs](#)**
+- 🎯 **[Pattern Selection & Justification](#)**
+- 📊 **[UML Class Diagram](#)**
+- 💻 **[Source Code Implementation](#)**
+- 📄 **[Presentation Slides (PDF)](#)**
+- 🎬 **[Presentation Video (Watch Here)](#)**
+- 📋 **[Project Management Board (Kanban)](#)**
+
+## 👨‍💻 Authors
+- **Names:** [ Mohammad shoman , Ibrahim Al-Balawi , Ahmed Al-Ajmi ]
+- **Role:** Full Project Implementation & Design
