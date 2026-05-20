@@ -16,7 +16,7 @@ To eliminate this structural rigidity, we implemented the **Observer Design Patt
 - 🎯 **[Pattern Selection & Justification](./Pattern-Justification.md)**
 - 📊 **[UML Class Diagram](./UML-Diagram.md)**
 - 💻 **[Source Code Implementation](./src)**
-- 📄 **[Presentation Slides (PDF)](#)**
+- 📄 **[Presentation Slides (PDF)](./presentation-slide.pdf)**
 - 🎬 **[Presentation Video (Watch Here)](#)**
 - 📋 **[Project Management Board (Kanban)](https://github.com/users/MO-Showman/projects/4)**
 
