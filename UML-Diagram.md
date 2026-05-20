@@ -1,5 +1,8 @@
 # C2: UML Diagrams & Design Documentation
 
+## 📊 1. Observer Pattern Class Diagram
+The following diagram represents the architecture of our **E-Commerce Order Tracking System**. It matches the standard structure defined in the reference book (Chapter 7: Observer Pattern).
+
 ```mermaid
 classDiagram
     class Subject {
@@ -30,27 +33,21 @@ classDiagram
 
     class CustomerApp {
         -Subject order
+        -String appName
+        +CustomerApp(Subject order, String appName)
         +update(String status)
         +display()
     }
 
     class SMSService {
         -Subject order
+        -String phoneNumber
+        +SMSService(Subject order, String phoneNumber)
         +update(String status)
         +sendSMS()
     }
 
-    class AnalyticsLogger {
-        -Subject order
-        +update(String status)
-        +logData()
-    }
-
-    Subject o-- Observer : Aggregation (1 to Many)
-    Order ..|> Subject : Realization / Implements
-    CustomerApp ..|> Observer : Realization / Implements
-    SMSService ..|> Observer : Realization / Implements
-    AnalyticsLogger ..|> Observer : Realization / Implements
-    CustomerApp --> Order : Dependency
-    SMSService --> Order : Dependency
-    AnalyticsLogger --> Order : Dependency
+    Subject o-- Observer : Aggregation 
+    Order ..|> Subject : Realization
+    CustomerApp ..|> Observer : Realization
+    SMSService ..|> Observer : Realization
