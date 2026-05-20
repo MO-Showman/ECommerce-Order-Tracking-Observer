@@ -1,7 +1,5 @@
 # C2: UML Diagrams & Design Documentation
 
-## 📊 1. Observer Pattern Class Diagram
-The following diagram represents the architecture of our **E-Commerce Order Tracking System**. It matches the standard structure defined in the reference book (Chapter 7: Observer Pattern).
 
 ```mermaid
 classDiagram
